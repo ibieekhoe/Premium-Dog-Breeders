@@ -1,0 +1,3 @@
+[build]
+  base = "dog breeding website"
+  publish = "."
