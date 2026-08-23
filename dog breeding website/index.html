@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Royal Paws Breeding Center</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!--================ NAVIGATION ================-->
+
+<header>
+
+<div class="logo">
+
+<a href="#home"> <h2>  <i class="fa-solid fa-dog"></i> Royal <span>Paws</span></h2></a>
+
+</div>
+
+<nav>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#dogs">Breeding Dogs</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#testimonials">Testimonials</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+<li>
+    <a href="#booking">
+
+    <div class="book-phone">
+        
+        <button class="ph"> Book Now </button>
+        
+    </div>
+
+</a>
+</li>
+
+
+</ul>
+
+</nav>
+
+<div class="menu-btn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+<a href="#booking" class="book-btn">
+
+Book Now
+
+</a>
+
+</header>
+
+<!--================ HERO ================-->
+
+<section class="hero" id="home">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>
+
+Premium Dog Breeding
+
+For Exceptional Bloodlines
+
+</h1>
+
+<p>
+
+Healthy, vaccinated and carefully selected breeding dogs from trusted bloodlines.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#dogs" class="btn">
+
+Explore Dogs
+
+</a>
+
+<a href="#booking" class="btn2">
+
+Book Breeding
+
+</a>
+
+<a href="https://wa.me/2349164298637?text=Hello%20Royal%20Paws" target="_blank" class="btn-3">
+
+    <i  style="color: green;" class="fa-brands fa-whatsapp"></i>
+    WhatsApp
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ ABOUT ================-->
+
+<section class="about" id="about">
+
+<div class="about-image">
+
+<img src="./36873290702627681.jpeg" alt="Dog">
+
+</div>
+
+<div class="about-text">
+
+<h5>ABOUT US</h5>
+
+<h2>
+
+Professional Dog Breeding Services
+
+</h2>
+
+<p>
+
+Royal Paws is dedicated to responsible breeding by matching healthy,
+genetically screened dogs with suitable mates. Our mission is to
+produce healthy puppies while maintaining excellent breed standards.
+
+</p>
+
+<p>
+
+Every dog receives regular veterinary care, premium nutrition,
+vaccinations and professional handling to ensure the highest quality
+breeding experience.
+
+</p>
+
+<!-- 
+<a href="#" class="learn-btn">
+
+Learn More
+
+</a> -->
+
+</div>
+
+</section>
+
+
+
+<!-- we -->
+
+<section class="we-page">
+    <div class="father">
+
+        <div class="father-a">
+            <h3 class="father-a-h">YEARS EXPERIENCE</h3>
+            <p class="father-a-p">6+ </p>
+        </div>
+
+        <div class="father-b">
+            <h3 class="father-b-h">HEALTH GUARANTEE</h3>
+            <p class="father-b-p">100%</p>
+        </div>
+    </div>
+</section>
+
+
+<!--================ WHY CHOOSE US ================-->
+
+<section class="services">
+
+<h5>
+
+WHY CHOOSE US
+
+</h5>
+
+<h2>
+
+Why Clients Trust Royal Paws
+
+</h2>
+
+<div class="service-container">
+
+<div class="service-box">
+
+<i class="fa-solid fa-shield-dog"></i>
+
+<h3>
+
+Healthy Dogs
+
+</h3>
+
+<p>
+
+Every breeding dog undergoes health screening and regular veterinary examinations.
+
+</p>
+
+</div>
+
+<div class="service-box">
+
+<i class="fa-solid fa-award"></i>
+
+<h3>
+
+Certified Bloodlines
+
+</h3>
+
+<p>
+
+We carefully select premium pedigree dogs with excellent genetics.
+
+</p>
+
+</div>
+
+<div class="service-box">
+
+<i class="fa-solid fa-heart"></i>
+
+<h3>
+
+Professional Care
+
+</h3>
+
+<p>
+
+Experienced handlers provide exceptional care before and after breeding.
+
+</p>
+
+</div>
+
+<div class="service-box">
+
+<i class="fa-solid fa-stethoscope"></i>
+
+<h3>
+
+Veterinary Support
+
+</h3>
+
+<p>
+
+Professional veterinarians monitor every breeding program.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MORE SECTIONS WILL FOLLOW -->
+<!--================ FEATURED BREEDING DOGS ================-->
+
+<section class="dogs" id="dogs">
+
+    <div class="section-title">
+
+        <h5>OUR BREEDING DOGS</h5>
+
+        <h2>Meet Our Premium Studs & Dams</h2>
+
+        <p>
+            Carefully selected, healthy, vaccinated and genetically tested dogs
+            ready for professional breeding.
+        </p>
+
+    </div>
+
+    <!-- DOGS WILL BE LOADED FROM THE CMS -->
+
+    <div class="dog-container" id="dog-container">
+
+        <p class="dogs-loading">
+            Loading our breeding dogs...
+        </p>
+
+    </div>
+
+</section>
+
+<!--================ BREEDING PROCESS ================-->
+
+<section class="process">
+
+    <div class="section-title">
+
+        <h5>HOW IT WORKS</h5>
+
+        <h2>Simple Breeding Process</h2>
+
+    </div>
+
+    <div class="process-container">
+
+        <div class="process-box">
+
+            <div class="number">01</div>
+
+            <h3>Select a Dog</h3>
+
+            <p>
+                Browse our premium breeding dogs and choose the perfect match.
+            </p>
+
+        </div>
+
+        <div class="process-box">
+
+            <div class="number">02</div>
+
+            <h3>Book Appointment</h3>
+
+            <p>
+                Complete the booking form and choose your preferred breeding date.
+            </p>
+
+        </div>
+
+        <div class="process-box">
+
+            <div class="number">03</div>
+
+            <h3>Health Verification</h3>
+
+            <p>
+                We verify the health records and vaccination history of both dogs.
+            </p>
+
+        </div>
+
+        <div class="process-box">
+
+            <div class="number">04</div>
+
+            <h3>Date and Location Agreement</h3>
+
+            <p>
+                We communicate with you and verify/set the date and location we recieve your dog
+            </p>
+        </div>
+
+        <div class="process-box">
+
+            <div class="number">04</div>
+
+            <h3>Successful Breeding</h3>
+
+            <p>
+                Our experts supervise the breeding process in a safe environment.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ BOOKING SECTION ================-->
+
+<section class="booking" id="booking">
+
+    <div class="booking-content">
+
+        <h5>BOOK NOW</h5>
+
+        <h2>Request a Breeding Appointment</h2>
+
+        <p>
+            Fill in the form below and we will contact you to confirm your
+            booking and choose a perfect location to meet.
+        </p>
+
+    </div>
+
+    <form class="booking-form" action=" https://formsubmit.co/ibieekhoeekunwe@gmail.com" method="POST">
+
+        <input
+            type="text"
+            name="First_Name"
+            placeholder="First Name"
+            required>
+
+            <input type="text"
+             name="Last_Name"
+              placeholder="Last Name"
+               required>
+
+        <input
+            type="email"
+            name="Email"
+            placeholder="Email"
+            required>
+
+        <input
+            type="tel"
+            name="Telephone_Number"
+            placeholder="Phone Number"
+            required>
+
+        <input
+            type="text"
+            name="Dog_Breed"
+            placeholder="Breed of Dog" 
+            required>
+
+            <input 
+            type="text"
+            name="Breed_Of_Your_Dog_Needed"
+            placeholder="Breed Of Dog You Want" 
+            required>
+
+        <input
+        name=" Date"
+            type="date"
+            required.> 
+            <small> *appointed date will be neguciated after Your form is Recieved</small>
+
+            <textarea 
+            name="Address"
+            placeholder="Adress"
+            role="4"
+            required></textarea>
+
+        <textarea
+        name="About_Dog"
+            placeholder="Tell us about your dog..."
+            rows="6"></textarea>
+
+            <label for="Dog_Image">Image Of Your Here <i class="fa-solid fa-arrow-down" style="color: #d4af37;"></i></label>
+            <input type="file" name="Dog_Image" >
+
+            <input type="reset" style="border-radius: 50px; background-color: red; font-weight: 500;" name="RESET" id="">
+        <button type="submit">
+
+            Book Appointment
+
+        </button>
+
+    </form>
+
+</section>
+
+
+
+
+
+
+
+<!--================ GALLERY ================-->
+
+<section class="gallery" id="gallery">
+
+    <div class="section-title">
+        <h5>OUR GALLERY</h5>
+        <h2>Moments From Our Breeding Center</h2>
+        <p>
+            Take a look at our healthy breeding dogs, puppies, facilities, and happy clients.
+        </p>
+    </div>
+
+    <div class="gallery-container">
+
+        <div class="gallery-item">
+            <img src="male and female german shephard.jpeg" alt="German Shepherd">
+        </div>
+
+        <div class="gallery-item">
+            <img src="male and female rotweller.jpeg" alt="Rottweiler">
+        </div>
+
+        <div class="gallery-item">
+            <img src="male and female golden retriever.jpeg" alt="Golden Retriever">
+        </div>
+
+        <div class="gallery-item">
+            <img src="male and female canee carsor.jpeg" alt="Cane Corso">
+        </div>
+
+        <div class="gallery-item">
+            <img src="puppies.jpeg" alt="Puppies">
+        </div>
+
+        <div class="gallery-item">
+            <img src="many dogs.jpeg" alt="Kennel">
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ TESTIMONIALS ================-->
+
+<section class="testimonials" id="testimonials">
+
+    <div class="section-title">
+        <h5>TESTIMONIALS</h5>
+        <h2>What Our Clients Say</h2>
+    </div>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+
+            <img src="clent 1.jpeg" alt="Client">
+
+            <h3>Michael Johnson</h3>
+
+            <span>★★★★★</span>
+
+            <p>
+                We had an amazing experience. The breeding process was
+                professional, and our puppies were healthy and beautiful.
+            </p>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <img src="client 2.jpeg" alt="Client">
+
+            <h3>James Williams</h3>
+
+            <span>★★★★★</span>
+
+            <p>
+                The staff answered every question and made the entire process
+                stress-free. Highly recommended.
+            </p>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <img src="client 3.jpeg" alt="Client">
+
+            <h3>Daniel Brown</h3>
+
+            <span>★★★★★</span>
+
+            <p>
+                Their breeding dogs are healthy, well-trained, and from excellent
+                bloodlines. Outstanding service.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--================ CONTACT ================-->
+
+<section class="contact" id="contact">
+
+    <div class="contact-info">
+
+        <h5>CONTACT US</h5>
+
+        <h2>Get In Touch</h2>
+
+        <p>
+            We'd love to help you choose the perfect breeding partner for your dog.
+        </p>
+
+        <div class="info">
+
+            <p><i class="fa-solid fa-location-dot"></i> 13 Evbmirawmen Street, Ovbiogie Community Off Benin Lagos Express Road Benin City, Edo State, Nigeria</p>
+
+            <p><i class="fa-solid fa-phone"></i> <a style="color: white; text-decoration: underline;" href="tel:+234 916 429 8637">234 916 429 8637</a></p>
+
+           <p class="w-button"><i style="color: green;" class="fa-brands fa-whatsapp"></i> <a style="color: white;" href="https://wa.me/2349164298637?text=Hello%20Royal%20Paws%20I%20want%20to%20inquire" target="_blank" >whatsapp</a> </p>
+
+            <p><i class="fa-solid fa-envelope"></i> <a style="color: white; text-decoration: underline;" href="mailto:ibieekhoeekunwe@gmail.com">royalpaws@gmail.com</a></p>
+
+        </div>
+
+    </div>
+
+    
+    <form class="contact-form" action="https://formsubmit.co/ibieekhoeekunwe@gmail.com" method="POST">
+
+        <input type="text" name="First_Name" placeholder="First Name" required>
+
+        <input type="text" name="Last_Name" placeholder="Last Name" required>
+
+        <input type="email" name="Email" placeholder="Email" required>
+
+        <input type="text" name="Subject" placeholder="Subject">
+
+        <textarea rows="7" name="Messaage" placeholder="Your Message" required></textarea>
+
+        <button type="reset" style="font-weight: 500; background-color: red; color: white;">RESET</button>
+        <button type="submit">
+
+            Send Message
+
+        </button>
+
+    </form>
+
+</section>
+
+<!--================ LOCATION ================-->
+
+<section class="location">
+
+    <div class="section-title">
+
+        <h5>OUR LOCATION</h5>
+
+        <h2>Visit Our Breeding Center</h2>
+
+    </div>
+
+    <div class="map">
+
+        <iframe  
+            src="https://www.google.com/maps?q=No+6+Evmirawhen+Street,+Ovbiogie+Community,+Off+Benin-Lagos+Express+Road,+Benin+City,+Edo+State,+Nigeria&output=embed"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"> 
+        </iframe>
+
+    </div>
+
+</section>
+
+<!--================ FOOTER ================-->
+
+<footer>
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+
+            <h2>Royal <span>Paws</span></h2>
+
+            <p>
+                We specialize in responsible dog breeding, premium bloodlines,
+                and healthy puppies raised with love and care.
+            </p>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+
+            <a href="#about">About</a>
+
+            <a href="#dogs">Breeding Dogs</a>
+
+            <a href="#gallery">Gallery</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Services</h3>
+
+            <a href="#">Dog Breeding</a>
+
+            <a href="#">Stud Service</a>
+
+            <a href="#">Health Screening</a>
+
+            <a href="#">Puppy Consultation</a>
+
+        </div>
+
+        <div class="footer-box">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-f" style="color: skyblue;"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram" style="color: lightcoral;"></i></a>
+                <a href="https://www.tiktok.com"><i class="fab fa-tiktok" style="color: gray;"></i></a>
+                <a href="https://www.youtube.com"><i class="fab fa-youtube" style="color: rgb(182, 45, 45);"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        <p>
+            © 2026 Royal Paws Breeding Center. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+<!--================ BACK TO TOP ================-->
+
+<a href="#home" class="back-top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</a>
+
+<!--================ JAVASCRIPT ================-->
+
+<script src="script.js"></script>
+ 
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+backend:
+  name: github
+  repo: ibieekhoe/PureBreed-Haven
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+
+  # ================================
+  # BREEDING DOGS
+  # ================================
+
+  - name: "dogs"
+    label: "Dogs"
+    files:
+
+      - file: "content/dogs.json"
+        label: "Breeding Dogs"
+        name: "dogs"
+
+        fields:
+
+          - label: "Dogs"
+            name: "dogs"
+            widget: "list"
+            summary: "{{dog_number}} - {{name}}"
+
+            fields:
+
+              - label: "Dog Number"
+                name: "dog_number"
+                widget: "string"
+
+              - label: "Dog Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Dog Image"
+                name: "image"
+                widget: "image"
+
+              - label: "Breed"
+                name: "breed"
+                widget: "string"
+
+              - label: "Gender"
+                name: "gender"
+                widget: "select"
+                options:
+                  - "Male"
+                  - "Female"
+
+              - label: "Age"
+                name: "age"
+                widget: "string"
+
+              - label: "Weight"
+                name: "weight"
+                widget: "string"
+
+              - label: "Status"
+                name: "status"
+                widget: "select"
+                options:
+                  - "Available"
+                  - "Booked"
+                  - "Unavailable"
+
+              - label: "Amount"
+                name: "amount"
+                widget: "string"
+
+              - label: "Booking Button Text"
+                name: "button_text"
+                widget: "string"
+                default: "Book Breeding"

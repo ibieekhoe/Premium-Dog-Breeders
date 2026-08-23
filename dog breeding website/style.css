@@ -1,0 +1,1646 @@
+/*==============================
+ GOOGLE FONT
+==============================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/*==============================
+ RESET
+==============================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0b0b0b;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding: 100px 8%;
+}
+
+/*==============================
+ REUSABLE
+==============================*/
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h5 {
+    color: #d4af37;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.section-title p {
+    max-width: 700px;
+    margin: auto;
+    color: #cfcfcf;
+    line-height: 1.8;
+}
+
+/*==============================
+ HEADER
+==============================*/
+
+header {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    padding: 20px 8%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    z-index: 1000;
+
+    transition: .4s;
+
+    background: rgba(0, 0, 0, .35);
+
+    backdrop-filter: blur(12px);
+
+}
+
+.logo h2 {
+
+    color: white;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+}
+
+.logo span {
+
+    color: #d4af37;
+
+}
+
+nav ul {
+
+    display: flex;
+
+    gap: 35px;
+
+}
+
+nav ul li a {
+
+    color: white;
+
+    font-weight: 500;
+
+    transition: .4s;
+
+}
+
+nav ul li a:hover {
+
+    color: #d4af37;
+
+}
+
+.book-btn {
+
+    padding: 12px 30px;
+
+    background: #d4af37;
+
+    color: #000;
+
+    border-radius: 40px;
+
+    font-weight: 600;
+
+    transition: .4s;
+
+}
+
+.book-btn:hover {
+
+    transform: translateY(-4px);
+
+    background: white;
+
+}
+
+.menu-btn {
+
+    display: none;
+
+    color: white;
+
+    font-size: 28px;
+
+    cursor: pointer;
+
+}
+
+/*==============================
+ HERO
+==============================*/
+
+.hero {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    position: relative;
+
+    background: url("./male\ and\ female\ german\ shephard.jpeg") center/cover no-repeat;
+
+}
+
+.overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, .65);
+
+}
+
+.hero-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 900px;
+
+}
+
+.hero-content h1 {
+
+    font-size: 70px;
+
+    margin-bottom: 25px;
+
+    line-height: 1.2;
+
+}
+
+.hero-content p {
+
+    font-size: 20px;
+
+    color: #ddd;
+
+    margin-bottom: 40px;
+
+    line-height: 1.8;
+
+}
+
+.hero-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+.btn {
+
+    background: #d4af37;
+
+    color: #000;
+
+    padding: 16px 38px;
+
+    border-radius: 40px;
+
+    font-weight: 600;
+
+    transition: .4s;
+
+}
+
+.btn:hover {
+
+    transform: translateY(-5px);
+
+}
+
+.btn2 {
+
+    border: 2px solid #d4af37;
+
+    color: #fff;
+
+    padding: 16px 38px;
+
+    border-radius: 40px;
+
+    transition: .4s;
+
+}
+
+.btn-3 {
+    border: 2px solid whitesmoke;
+
+    color: #fff;
+
+    padding: 16px 38px;
+
+    border-radius: 40px;
+
+    transition: .4s;
+
+    background-color: rgb(28, 41, 1);
+}
+ 
+.btn2:hover {
+
+    background: #d4af37;
+
+    color: #000;
+
+}
+
+/*==============================
+ ABOUT
+==============================*/
+
+.about {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 60px;
+
+    align-items: center;
+
+}
+
+.about-image {
+
+    overflow: hidden;
+
+    border-radius: 25px;
+
+}
+
+.about-image img {
+
+    transition: .5s;
+
+}
+
+.about-image:hover img {
+
+    transform: scale(1.08);
+
+}
+
+.about-text h5 {
+
+    color: #d4af37;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 15px;
+
+}
+
+.about-text h2 {
+
+    font-size: 42px;
+
+    margin-bottom: 20px;
+
+}
+
+.about-text p {
+
+    color: #ccc;
+
+    line-height: 1.9;
+
+    margin-bottom: 20px;
+
+}
+
+.learn-btn {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 15px 35px;
+
+    background: #d4af37;
+
+    color: #000;
+
+    border-radius: 40px;
+
+    font-weight: 600;
+
+    transition: .4s;
+
+}
+
+.learn-btn:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+/*==============================
+ WHY CHOOSE US
+==============================*/
+
+.services {
+    background: #111;
+}
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.service-box {
+    background: #181818;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: .4s;
+    border: 1px solid rgba(212, 175, 55, .15);
+}
+
+.service-box:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 40px rgba(212, 175, 55, .2);
+}
+
+.service-box i {
+    font-size: 55px;
+    color: #d4af37;
+    margin-bottom: 25px;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-box p {
+    color: #cfcfcf;
+    line-height: 1.8;
+}
+
+/*==============================
+ BREEDING DOGS
+==============================*/
+
+.dogs {
+    background: #0b0b0b;
+}
+
+.dog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 35px;
+}
+
+.dog-card {
+    background: #171717;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .4s;
+    border: 1px solid rgba(212, 175, 55, .15);
+}
+
+.dog-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 50px rgba(212, 175, 55, .2);
+}
+
+.dog-card img {
+    height: 300px;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.dog-card:hover img {
+    transform: scale(1.08);
+}
+
+.dog-info {
+    padding: 25px;
+}
+
+.dog-info h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.dog-info span {
+    color: #d4af37;
+    font-weight: 600;
+}
+
+.dog-info p {
+    margin: 12px 0;
+    color: #d8d8d8;
+}
+
+.dog-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #d4af37;
+    color: #000;
+    border-radius: 35px;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.dog-btn:hover {
+    background: #fff;
+    transform: translateY(-4px);
+}
+
+/*==============================
+ BREEDING PROCESS
+==============================*/
+
+.process {
+    background: #111;
+}
+
+.process-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.process-box {
+    background: #1b1b1b;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: .4s;
+}
+
+.process-box:hover {
+    transform: translateY(-10px);
+}
+
+.number {
+    width: 80px;
+    height: 80px;
+    background: #d4af37;
+    color: #000;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.process-box h3 {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.process-box p {
+    color: #cfcfcf;
+    line-height: 1.8;
+}
+
+/*==============================
+ BOOKING
+==============================*/
+
+.booking {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    align-items: center;
+}
+
+.booking-content h5 {
+    color: #d4af37;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.booking-content h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.booking-content p {
+    color: #cfcfcf;
+    line-height: 1.8;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.booking-form input,
+.booking-form textarea {
+
+    width: 100%;
+
+    background: #181818;
+
+    color: #fff;
+
+    border: 1px solid rgba(212, 175, 55, .25);
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    outline: none;
+
+    transition: .3s;
+
+}
+
+.booking-form input:focus,
+.booking-form textarea:focus {
+
+    border-color: #d4af37;
+
+}
+
+.booking-form textarea {
+
+    resize: none;
+
+}
+
+.booking-form button {
+
+    padding: 18px;
+
+    background: #d4af37;
+
+    color: #000;
+
+    border: none;
+
+    border-radius: 40px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .4s;
+
+}
+
+.booking-form button:hover {
+
+    transform: translateY(-5px);
+
+    background: white;
+
+}
+
+
+/*=========================================
+GALLERY
+=========================================*/
+
+.gallery {
+    background: #111;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: .6s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.12);
+}
+
+/*=========================================
+TESTIMONIALS
+=========================================*/
+
+.testimonials {
+    background: #0b0b0b;
+}
+
+.testimonial-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+
+    gap: 30px;
+
+}
+
+.testimonial-card {
+
+    background: #181818;
+
+    padding: 40px 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    transition: .4s;
+
+    border: 1px solid rgba(212, 175, 55, .15);
+
+}
+
+.testimonial-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 15px 35px rgba(212, 175, 55, .18);
+
+}
+
+.testimonial-card img {
+
+    width: 120px;
+
+    height: 120px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    margin: auto;
+
+    margin-bottom: 20px;
+
+    border: 4px solid #d4af37;
+
+}
+
+.testimonial-card h3 {
+
+    margin-bottom: 10px;
+
+}
+
+.testimonial-card span {
+
+    color: #d4af37;
+
+    font-size: 20px;
+
+}
+
+.testimonial-card p {
+
+    color: #ccc;
+
+    margin-top: 20px;
+
+    line-height: 1.8;
+
+}
+
+/*=========================================
+CONTACT
+=========================================*/
+
+.contact {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 60px;
+
+}
+
+.contact-info h5 {
+
+    color: #d4af37;
+
+    letter-spacing: 3px;
+
+}
+
+.contact-info h2 {
+
+    font-size: 45px;
+
+    margin: 15px 0;
+
+}
+
+.contact-info p {
+
+    color: #ccc;
+
+    line-height: 1.8;
+
+}
+
+.info {
+
+    margin-top: 30px;
+
+}
+
+.info p {
+
+    margin-bottom: 20px;
+
+}
+
+.info i {
+
+    color: #d4af37;
+
+    margin-right: 10px;
+
+}
+
+.contact-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+.contact-form input,
+.contact-form textarea {
+
+    padding: 18px;
+
+    background: #181818;
+
+    border: 1px solid rgba(212, 175, 55, .25);
+
+    color: white;
+
+    border-radius: 12px;
+
+    outline: none;
+
+}
+
+.contact-form textarea {
+
+    resize: none;
+
+}
+
+.contact-form button {
+
+    background: #d4af37;
+
+    color: #000;
+
+    padding: 18px;
+
+    border: none;
+
+    border-radius: 40px;
+
+    cursor: pointer;
+
+    font-weight: 600;
+
+    transition: .4s;
+
+}
+
+.contact-form button:hover {
+
+    background: white;
+
+}
+
+/*=========================================
+MAP
+=========================================*/
+
+.location {
+
+    background: #111;
+
+}
+
+.map {
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+}
+
+/*=========================================
+FOOTER
+=========================================*/
+
+footer {
+
+    background: #050505;
+
+    padding: 80px 8% 20px;
+
+}
+
+.footer-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 40px;
+
+}
+
+.footer-box h2 {
+
+    color: white;
+
+}
+
+.footer-box span {
+
+    color: #d4af37;
+
+}
+
+.footer-box h3 {
+
+    margin-bottom: 20px;
+
+}
+
+.footer-box p {
+
+    color: #aaa;
+
+    line-height: 1.8;
+
+}
+
+.footer-box a {
+
+    display: block;
+
+    color: #bbb;
+
+    margin-bottom: 12px;
+
+    transition: .3s;
+
+}
+
+.footer-box a:hover {
+
+    color: #d4af37;
+
+    padding-left: 6px;
+
+}
+
+.social-icons {
+
+    display: flex;
+
+    gap: 15px;
+
+}
+
+.social-icons a {
+
+    width: 45px;
+
+    height: 45px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background: #181818;
+
+    color: white;
+
+    transition: .4s;
+
+}
+
+.social-icons a:hover {
+
+    background: #d4af37;
+
+    color: black;
+
+}
+
+.copyright {
+
+    margin-top: 50px;
+
+    text-align: center;
+
+    color: #888;
+
+    border-top: 1px solid #222;
+
+    padding-top: 20px;
+
+}
+
+/*=========================================
+BACK TO TOP
+=========================================*/
+
+.back-top {
+
+    position: fixed;
+
+    right: 25px;
+
+    bottom: 25px;
+
+    width: 55px;
+
+    height: 55px;
+
+    background: #d4af37;
+
+    color: black;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 22px;
+
+    transition: .4s;
+
+}
+
+.back-top:hover {
+
+    transform: translateY(-8px);
+
+}
+
+/* others */
+
+.w-button {
+    border: 1px solid black;
+    background-color: yellowgreen;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 9rem;
+    border-radius: 50px;
+}
+
+.book-phone {
+    display: none;
+} 
+
+
+/* we */
+
+.father{
+    display: flex;
+    flex-direction: row;
+    gap: 18rem;
+    margin-left: 8rem;
+    text-align: center;
+}
+
+.father-a-h{
+    font-size: 1.8rem;
+    font-family: cursive;
+}
+
+.father-b-h{
+    font-size: 1.8rem;
+    font-family: cursive;
+}
+
+.father-a-p{
+    color: #d4af37;
+    font-size: 1.5rem; 
+}
+
+.father-b-p{
+    color: yellowgreen;
+    font-size: 1.5rem; 
+}
+/*=========================================
+RESPONSIVE
+=========================================*/
+
+@media(max-width:991px) {
+
+    .book-phone {
+        display: block;
+    }
+
+    .ph {
+        border: none;
+        background-color: #d4af37;
+        color: black;
+        border-radius: 50px;
+        padding: 0.9rem;
+        font-weight: 900;
+    }
+
+    .hero-content h1 {
+
+        font-size: 52px;
+
+    }
+
+    .about,
+    .booking,
+    .contact {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    nav {
+
+        display: none;
+
+    }
+
+    .menu-btn {
+
+        display: block;
+
+    }
+
+    .book-btn {
+
+        display: block;
+
+    }
+
+    section {
+
+        padding: 80px 6%;
+
+    }
+
+
+
+    
+/* we */
+
+.father{
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+    margin-left: 6rem;
+    text-align: center;
+}
+
+.father-a-h{
+    font-size: 1.6rem;
+    font-family: cursive;
+}
+
+.father-b-h{
+    font-size: 1.6rem;
+    font-family: cursive;
+}
+
+.father-a-p{
+    color: #d4af37;
+    font-size: 1.5rem; 
+}
+
+.father-b-p{
+    color: yellowgreen;
+    font-size: 1.5rem; 
+}
+ 
+    
+
+}
+
+@media(max-width:768px) {
+
+    .hero-content h1 {
+
+        font-size: 42px;
+
+    }
+
+    .section-title h2 {
+
+        font-size: 34px;
+
+    }
+
+    .about-text h2,
+    .booking-content h2,
+    .contact-info h2 {
+
+        font-size: 34px;
+
+    }
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .btn,
+    .btn2,
+    .btn-3 {
+
+        width: 220px;
+
+        text-align: center;
+
+    } 
+
+
+    
+/* we */
+
+.father{
+    display: flex;
+    flex-direction: row;
+    gap: 7.5rem;
+    margin-left: 3rem;
+    text-align: center;
+}
+
+.father-a-h{
+    font-size: 1.3rem;
+    font-family: cursive;
+}
+
+.father-b-h{
+    font-size: 1.3rem;
+    font-family: cursive;
+}
+
+.father-a-p{
+    color: #d4af37;
+    font-size: 1.5rem; 
+}
+
+.father-b-p{
+    color: yellowgreen;
+    font-size: 1.5rem; 
+}
+
+}
+
+@media(max-width:500px) {
+
+    .hero-content h1 {
+
+        font-size: 32px;
+
+    }
+
+    .hero-content p {
+
+        font-size: 17px;
+
+    }
+
+    .section-title h2 {
+
+        font-size: 28px;
+
+    }
+
+    .service-box,
+    .process-box,
+    .testimonial-card {
+
+        padding: 30px 20px;
+
+    }
+
+    
+.father{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.father-a-h{
+    font-size: 12px;
+    font-family: cursive;
+}
+
+.father-b-h{
+    font-size: 12px;
+    font-family: cursive;
+}
+
+.father-a-p{
+    color: #d4af37;
+    font-size: 1.5rem; 
+}
+
+.father-b-p{
+    color: yellowgreen;
+    font-size: 1.5rem; 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================
+ RESPONSIVE
+=========================================*/
+
+/* TABLET */
+@media(max-width:991px) {
+
+    /* HEADER */
+    header {
+        padding: 18px 6%;
+    }
+
+    /* HAMBURGER */
+    .menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        cursor: pointer;
+        z-index: 1002;
+    }
+
+    /* HIDE DESKTOP BOOK BUTTON */
+    .book-btn {
+        display: none;
+    }
+
+    /* MOBILE/TABLET NAVIGATION */
+    nav {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #050505;
+        padding: 0 6%;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        transition:
+            max-height .4s ease,
+            opacity .3s ease,
+            visibility .3s ease,
+            padding .4s ease;
+    }
+
+    /* OPEN MENU */
+    nav.show {
+        max-height: 500px;
+        opacity: 1;
+        visibility: visible;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, .5);
+    }
+
+    /* NAVIGATION LINKS */
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+
+    nav ul li a:hover {
+        background: rgba(212, 175, 55, .08);
+        color: #d4af37;
+    }
+
+    /* ACTIVE LINK */
+    nav ul li a.active {
+        color: #d4af37;
+    }
+
+    /* HERO */
+    .hero-content h1 {
+        font-size: 52px;
+    }
+
+    /* COLUMNS */
+    .about,
+    .booking,
+    .contact {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 80px 6%;
+    }
+
+}
+
+
+/*=========================================
+ TABLET
+=========================================*/
+
+@media(max-width:768px) {
+
+    header {
+        padding: 16px 5%;
+    }
+
+    .logo h2 {
+        font-size: 26px;
+    }
+
+    .hero-content {
+        padding: 0 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    .section-title h2 {
+        font-size: 34px;
+    }
+
+    .about-text h2,
+    .booking-content h2,
+    .contact-info h2 {
+        font-size: 34px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn,
+    .btn2 {
+        width: 220px;
+        text-align: center;
+    }
+
+    .dog-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonial-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/*=========================================
+ PHONE
+=========================================*/
+
+@media(max-width:500px) {
+
+    header {
+        padding: 15px 5%;
+    }
+
+    .logo h2 {
+        font-size: 23px;
+    }
+
+    .menu-btn {
+        font-size: 25px;
+    }
+
+    nav {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    nav.show {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav ul li a {
+        padding: 14px 10px;
+        font-size: 15px;
+    }
+
+    .hero-content {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        line-height: 1.25;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .section-title h5 {
+        font-size: 13px;
+    }
+
+    .about-text h2,
+    .booking-content h2,
+    .contact-info h2 {
+        font-size: 30px;
+    }
+
+    .dog-container,
+    .gallery-container,
+    .testimonial-container {
+        grid-template-columns: 1fr;
+    }
+
+    .dog-card img {
+        height: 280px;
+    }
+
+    .service-box,
+    .process-box,
+    .testimonial-card {
+        padding: 30px 20px;
+    }
+
+    .back-top {
+        width: 48px;
+        height: 48px;
+        right: 18px;
+        bottom: 18px;
+        font-size: 18px;
+    }
+
+}

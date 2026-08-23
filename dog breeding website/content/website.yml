@@ -1,0 +1,21 @@
+site_name: "PureBreed Haven"
+
+hero_heading: "Premium Dog Breeding For Exceptional Bloodlines"
+
+hero_description: "Healthy, vaccinated and carefully selected breeding dogs from trusted bloodlines."
+
+testimonials:
+  - name: "Michael Johnson"
+    image: "clent 1.jpeg"
+    rating: "★★★★★"
+    text: "We had an amazing experience. The breeding process was professional, and our puppies were healthy and beautiful."
+
+  - name: "James Williams"
+    image: "client 2.jpeg"
+    rating: "★★★★★"
+    text: "The staff answered every question and made the entire process stress-free. Highly recommended."
+
+  - name: "Daniel Brown"
+    image: "client 3.jpeg"
+    rating: "★★★★★"
+    text: "Their breeding dogs are healthy, well-trained, and from excellent bloodlines. Outstanding service."
